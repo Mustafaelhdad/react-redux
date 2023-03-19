@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Greatings from "./components/Greatings";
 
 function App() {
-  return <div className="App">Hello World!</div>;
+  return (
+    <div className="App">
+      <h2>Hello World!</h2>
+      <Greatings />
+    </div>
+  );
 }
 
 export default App;
